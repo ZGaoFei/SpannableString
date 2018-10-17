@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setHighlightColor(Color.parseColor("#00000000"));
         textView.setText(setSpannableString(isSetString, string));
         textView.setMovementMethod(ClickableMovementMethod.getInstance());
-//        textView.setMovementMethod(LinkMovementMethod.getInstance());
+        // textView.setMovementMethod(LinkMovementMethod.getInstance());
         textView.setOnTouchListener(new LinkMovementMethodOverride());
     }
 
