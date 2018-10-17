@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void updateDrawState(TextPaint ds) {
             super.updateDrawState(ds);
-//            ds.setColor(Color.BLUE);
+            // ds.setColor(Color.BLUE);
             ds.setUnderlineText(false);
         }
 
