@@ -46,8 +46,8 @@ public class LinkMovementMethodOverride implements View.OnTouchListener {
                     if (action == MotionEvent.ACTION_UP) {
                         link[0].onClick(widget);
                     } else if (action == MotionEvent.ACTION_DOWN) {
-                        //Selection only works on Spannable text. In our case setSelection doesn't work on spanned text
-                        //Selection.setSelection(buffer, buffer.getSpanStart(link[0]), buffer.getSpanEnd(link[0]));
+                        // Selection only works on Spannable text. In our case setSelection doesn't work on spanned text
+                        // Selection.setSelection(buffer, buffer.getSpanStart(link[0]), buffer.getSpanEnd(link[0]));
                     }
                     return true;
                 }
